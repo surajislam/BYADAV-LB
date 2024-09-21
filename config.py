@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002111700914))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "6066866572"))
+OWNER_ID = int(getenv("OWNER_ID", "5665435653"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/surajislam/Ayadav_LB",
+    "https://github.com/surajislam/Byadav_LB",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
